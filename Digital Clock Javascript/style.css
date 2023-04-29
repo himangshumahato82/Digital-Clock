@@ -6,15 +6,30 @@
 }
 body {
   height: 100vh;
-  background-image: linear-gradient(135deg, #8052ec, #d161ff);
+  /* background-image: image(`); */
+  /* background-image:url('https://avatars.githubusercontent.com/u/108947867?v=4'); */
+  background-image: linear-gradient(180deg, #8052ec, #71ff61);
+}
+#container{
+  width: auto;
+  display: flex;
+  margin: auto;
+  display: block;
+  /* margin-top: 10%; */
+  margin-bottom: 50px;
+  text-align: center;
+  /* border: 2px solid red; */
 }
 .clock {
-  width: 31.25em;
-  height: 8em;
+  /* border: 2px solid red; */
+  width:45%;
+  /* height: 8em; */
+  margin-top:50px;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
+  /* top: 35%; */
+   left: 40%; 
+  /* right: 70%; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -22,16 +37,18 @@ body {
 }
 .clock div {
   position: relative;
-  background-color: #ffffff;
-  height: 100%;
-  width: 3.2em;
+  /* border: 2px solid red; */
+   background-color: #16c91f; 
+  height: 70%;
+  width: 35%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.5em;
-  color: #150c41;
+  font-size: 2.3em;
+  color: #de3513;
+  padding:10px;
   border-radius: 0.4em;
-  box-shadow: 0 1em 2em rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1em 2em rgba(199, 19, 19, 0.3);
   letter-spacing: 0.05em;
 }
 .clock span {
@@ -39,3 +56,4 @@ body {
   font-size: 2.5em;
   color: #ffffff;
 }
+
