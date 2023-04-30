@@ -45,7 +45,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 2.3em;
-  color: #de3513;
+  color: hsl(75, 84%, 47%);
   padding:10px;
   border-radius: 0.4em;
   box-shadow: 0 1em 2em rgba(199, 19, 19, 0.3);

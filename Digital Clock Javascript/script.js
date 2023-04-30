@@ -28,4 +28,5 @@ const clock = setInterval(function time() {
    hour.textContent = hr;
    minute.textContent = min;
    seconds.textContent = sec;
+  //  console.log(timeString)
 }, 1000);
