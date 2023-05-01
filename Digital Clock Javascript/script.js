@@ -14,10 +14,10 @@ const clock = setInterval(function time() {
   let hr = dateNow.getHours();
   let min = dateNow.getMinutes();
   let sec = dateNow.getSeconds();
-    console.log(date,month)
-    // const dateNow = new Date();
-const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-const month = monthNames[dateNow.getMonth()];
+//     console.log(date,month)
+//     // const dateNow = new Date();
+// const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+// const month = monthNames[dateNow.getMonth()];
 
   
   hr = hr.toString().padStart(2, "0");
