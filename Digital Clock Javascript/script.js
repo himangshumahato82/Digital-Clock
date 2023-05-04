@@ -8,9 +8,9 @@ const day = dateNow.toLocaleDateString('en-In', { weekday: 'long', year: 'numeri
 date.textContent=day
 const clock = setInterval(function time() {
   const dateNow = new Date();
-  // console.log(dateNow)
-  //  let date=dateNow.getDate()
-  // let month=dateNow.getMonth()+1
+  console.log(dateNow)
+   let date=dateNow.getDate()
+  let month=dateNow.getMonth()+1
   let hr = dateNow.getHours();
   let min = dateNow.getMinutes();
   let sec = dateNow.getSeconds();
